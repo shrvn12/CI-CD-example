@@ -1,11 +1,16 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "yaml-cli": "^1.1.8"
   },
   "name": "day-3_17th-feb",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
