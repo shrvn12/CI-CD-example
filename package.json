@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "yaml-cli": "^1.1.8"
+  },
+  "name": "day-3_17th-feb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,33 @@
+title: website Name
+description: A website for uploading content
+age: 30
+
+tags:
+  - technology
+  - images
+  - creative
+# Indentation matters
+# spaces
+
+# objects
+address:
+  street: MG road
+  city: Bangalore
+  state: KA
+
+# GitHub actions
+# env variables
+name: Github action ofr
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions
+      - name: Print node version
+        run: node --version
+      - name: Print Print NPM version
+        run: npm --version
+      - name: Print pwd
